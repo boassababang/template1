@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Artistik | Blog & Toko</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-Gp4QYuJAZC6d5kO62w1+Q80VOHTx1WQ447NVW8IGd0NS6Xx1f0E3EMRxjPSbgMnmV5radi2g+0q9wo9b1yF2x+w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#home"><h1>MyBlog</h1></a>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home">Beranda</a></li>
+                <li class="dropdown">
+                    <a href="#all-products">Toko <span class="arrow-down"></span></a>
+                    <ul class="dropdown-content">
+                        <li class="dropdown-submenu">
+                            <a href="#all-products">Semua Produk <span class="arrow-right"></span></a>
+                            <ul class="submenu-content">
+                                <li><a href="#product-a">Produk a</a></li>
+                                <li><a href="#product-b">Produk b</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#latest-collection">Koleksi Terbaru</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#photos">Blog <span class="arrow-down"></span></a>
+                    <ul class="dropdown-content">
+                        <li class="dropdown-submenu">
+                            <a href="#photos">Foto <span class="arrow-right"></span></a>
+                            <ul class="submenu-content">
+                                <li><a href="#nature">Alam</a></li>
+                                <li><a href="#sea">Laut</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#books">Buku</a></li>
+                    </ul>
+                </li>
+                 <li class="dropdown">
+                    <a href="#photos">Halaman 1 <span class="arrow-down"></span></a>
+                    <ul class="dropdown-content">
+                        <li><a href="#photos">hal 1</a></li>
+                        <li><a href="#books">hal 1.2</a></li>
+                    </ul>
+                </li>
+                 <li class="dropdown">
+                    <a href="#photos">Halaman 2 <span class="arrow-down"></span></a>
+                    <ul class="dropdown-content">
+                        <li><a href="#photos">hal 2</a></li>
+                        <li><a href="#books">hal 2.2</a></li>
+                    </ul>
+                </li>
+                 <li class="dropdown">
+                    <a href="#photos">Halaman 3 <span class="arrow-down"></span></a>
+                    <ul class="dropdown-content">
+                        <li><a href="#photos">hal 3</a></li>
+                        <li><a href="#books">hal 3.2</a></li>
+                    </ul>
+                </li>
+                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="full-screen">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h2 class="animate-up">Estetika & Inspirasi</h2>
+                <p class="animate-up delay-1">Temukan harmoni antara seni, literasi, dan produk pilihan.</p>
+                <div class="cta-group animate-up delay-2">
+                    <a href="#all-products" class="btn-primary">Jelajahi Toko</a>
+                    <a href="#photos" class="btn-secondary">Baca Blog</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="all-products" class="full-screen hidden">
+            <div class="container">
+                <h2 class="section-title">Semua Produk</h2>
+                <p class="section-subtitle">Koleksi kurasi terbaik untuk gaya hidup Anda.</p>
+                <!-- Product Grid could go here later -->
+            </div>
+        </section>
+
+        <section id="product-a" class="full-screen hidden">
+            <div class="container">
+                <h2 class="section-title">Produk a</h2>
+                <div class="product-detail">
+                    <p>Eksklusivitas dalam setiap detail. Produk ini dirancang untuk mereka yang menghargai kualitas tinggi.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="product-b" class="full-screen hidden">
+            <div class="container">
+                <h2 class="section-title">Produk b</h2>
+                <div class="product-detail">
+                    <p>Minimalisme bertemu fungsionalitas. Produk b adalah esensi dari desain modern.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="latest-collection" class="full-screen hidden">
+            <div class="container">
+                <h2 class="section-title">Koleksi Terbaru</h2>
+                <p class="section-subtitle">Musim ini menghadirkan palet warna bumi dan tekstur organik.</p>
+            </div>
+        </section>
+
+        <section id="photos" class="full-screen hidden">
+            <div class="container">
+                <h2 class="section-title">Visual Storytelling</h2>
+                <p class="section-subtitle">Menangkap momen melalui lensa artistik.</p>
+            </div>
+        </section>
+
+        <section id="books" class="full-screen hidden">
+            <div class="container">
+                <h2 class="section-title">Resonansi Kata</h2>
+                <p class="section-subtitle">Ulasan buku yang menggugah pikiran dan imajinasi.</p>
+            </div>
+        </section>
+
+        <section id="about" class="full-screen hidden">
+            <div class="container">
+                <h2 class="section-title">Visi Kami</h2>
+                <p class="section-subtitle">Lebih dari sekadar blog, kami adalah ruang untuk kreativitas.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="full-screen hidden">
+            <div class="container">
+                <h2 class="section-title">Hubungi Kami</h2>
+                <p class="section-subtitle">Mari berkolaborasi atau sekadar menyapa.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-menu">
+                <a href="https://www.facebook.com" target="_blank" rel="noopener"><img src="p.png" alt="Facebook"/><span>Facebook</span></a>
+                <a href="https://www.instagram.com" target="_blank" rel="noopener"><img src="i.png" alt="Instagram"/><span>Instagram</span></a>
+                <a href="https://wa.me/1234567890" target="_blank" rel="noopener"><img src="w.png" alt="WhatsApp"/><span>WhatsApp</span></a>
+                <a href="https://www.tiktok.com" target="_blank" rel="noopener"><img src="t.png" alt="TikTok"/><span>TikTok</span></a>
+                <a href="https://www.example.com" target="_blank" rel="noopener"><img src="web.png" alt="Website"/><span>Website</span></a>
+                <a href="https://www.example.com" target="_blank" rel="noopener"><img src="g.png" alt="GitHub"/><span>GitHub</span></a>
+                <a href="mailto:info@example.com"><img src="e.png" alt="Email"/><span>Email</span></a>
+                <a href="https://www.youtube.com" target="_blank" rel="noopener"><img src="y.png" alt="YouTube"/><span>YouTube</span></a>
+            </div>
+        </div>
+         <p>&copy; 2026 Blog Profesional. Hak Cipta Dilindungi.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
